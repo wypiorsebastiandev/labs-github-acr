@@ -1,7 +1,0 @@
-version: '3.4'
-
-services:
-  brezyweather:
-    image: ${DOCKER_REGISTRY-}brezyweather
-    build:
-      context: .
