@@ -5,4 +5,3 @@ services:
     image: ${DOCKER_REGISTRY-}brezyweather
     build:
       context: .
-      dockerfile: BrezyWeather/Dockerfile
