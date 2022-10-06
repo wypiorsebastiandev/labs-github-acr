@@ -1,0 +1,8 @@
+﻿bin
+obj
+.vscode
+debug
+release
+*.log
+.vs
+.DS_Store
