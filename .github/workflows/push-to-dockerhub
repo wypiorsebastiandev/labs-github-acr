@@ -27,10 +27,10 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/your-repo:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/abs-github-acr:latest
 
       - name: Build and push Docker image with commit SHA
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/your-repo:${{ github.sha }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/abs-github-acr:${{ github.sha }}
